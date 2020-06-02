@@ -34,14 +34,20 @@
             </li>
           </ul>
 
-          <div class="contacts">
+          <div class="contacts box-contacts">
             <a href="mailto:info@devstudio.com" class="contacts-header link"
-              >info@devstudio.com</a
+              ><svg class="contacts-icon" width="16" height="11">
+                <use href="./images/sprite.svg#icon-envelope"></use>
+              </svg>
+              info@devstudio.com</a
             >
 
             <a href="tel:+380961111111" class="contacts-header link"
-              >+38 096 111 11 11</a
-            >
+              ><svg class="contacts-icon" width="10" height="15">
+                <use href="./images/sprite.svg#icon-phone-logo"></use>
+              </svg>
+              +38 096 111 11 11
+            </a>
           </div>
         </nav>
       </div>
@@ -49,7 +55,7 @@
 
     <main>
       <section class="buttons container">
-        <h1>
+        <h1 class="visually-hidden">
           Портфолио веб студии
         </h1>
         <ul class="list portfolio">
@@ -79,7 +85,7 @@
           <li class="list-examples">
             <a href="./portfolio.html" class="link pf-link">
               <img
-                src="./images/Tehnokrak.png"
+                src="./images/Tehnokrak.jpg"
                 alt="Группа людей"
                 width="370"
                 class="image"
@@ -104,7 +110,7 @@
           <li class="list-examples">
             <a href="./portfolio.html" class="link pf-link">
               <img
-                src="./images/New-Orlean-vs-Golden-Stars.png"
+                src="./images/New-Orlean-vs-Golden-Stars.jpg"
                 alt="Баскетболисты"
                 class="image"
                 width="370"
@@ -129,7 +135,7 @@
           <li class="list-examples">
             <a href="./portfolio.html" class="link pf-link">
               <img
-                src="./images/Seafood.png"
+                src="./images/Seafood.jpg"
                 alt="Логотип ресторана Seafood"
                 class="image"
                 width="370"
@@ -154,7 +160,7 @@
           <li class="list-examples">
             <a href="./portfolio.html" class="link pf-link">
               <img
-                src="./images/prime-project.png"
+                src="./images/prime-project.jpg"
                 alt="Наушники"
                 class="image"
                 width="370"
@@ -179,7 +185,7 @@
           <li class="list-examples">
             <a href="./portfolio.html" class="link pf-link">
               <img
-                src="./images/boxes.png"
+                src="./images/boxes.jpg"
                 alt="Коробки"
                 class="image"
                 width="370"
@@ -204,7 +210,7 @@
           <li class="list-examples">
             <a href="./portfolio.html" class="link pf-link">
               <img
-                src="./images/Inspiration-has-no-borders.png"
+                src="./images/Inspiration-has-no-borders.jpg"
                 alt="Фото монитора"
                 class="image"
                 width="370"
@@ -229,7 +235,7 @@
           <li class="list-examples">
             <a href="./portfolio.html" class="link pf-link">
               <img
-                src="./images/Limited-Edition.png"
+                src="./images/Limited-Edition.jpg"
                 alt="Книга"
                 width="370"
                 class="image"
@@ -254,7 +260,7 @@
           <li class="list-examples">
             <a href="./portfolio.html" class="link pf-link">
               <img
-                src="./images/labeltag.png"
+                src="./images/labeltag.jpg"
                 alt="Бирка"
                 width="370"
                 class="image"
@@ -308,62 +314,90 @@
     <footer class="footer">
       <div class="container container-footer">
         <address class="adress-info">
-          <div class="logo-footer">
+          <p class="logo-footer">
             <span class="logo-primary">
               Web
             </span>
-            Studio <br />
-          </div>
+            Studio
+          </p>
 
-          <div class="adress">г. Киев, пр-т Леси Украинки, 26 <br /></div>
+          <p class="adress">г. Киев, пр-т Леси Украинки, 26</p>
 
-          <div class="contacts">
-            <a class="contacts-email" href="mailto:info@example.com"
-              >info@example.com</a
-            >
-            <br />
-            <a class="contacts-phone" href="tel:+380991111111"
-              >+38 099 111 11 11</a
-            >
-          </div>
+          <!-- <div class="contacts"> -->
+          <a class="contacts-email" href="mailto:info@example.com"
+            >info@example.com</a
+          >
+
+          <a class="contacts-phone" href="tel:+380991111111"
+            >+38 099 111 11 11</a
+          >
+          <!-- </div> -->
         </address>
 
         <div class="footer-s-links">
           <b class="action">Присоединяйтесь</b>
-
           <ul class="list-footer">
             <li class="s-networks-links">
-              <a href="" aria-label="Ссылка на Instagram" class="link snetwork"
-                >Instagram</a
-              >
-            </li>
-            <li class="s-networks-links">
-              <a href="" aria-label="Ссылка на Twitter" class="link snetwork"
-                >Twitter</a
-              >
+              <a
+                href="https://www.instagram.com/"
+                class="link-footer"
+                aria-label="Ссылка на Instagram"
+                class="link snetwork icon-instagram"
+                ><svg class="contacts-icon" width="20" height="20">
+                  <use href="./images/sprite.svg#icon-Instagram-logo"></use>
+                </svg>
+              </a>
             </li>
             <li class="s-networks-links">
               <a
-                href=""
-                aria-label="Ссылка на Facebook"
-                class="link link snetwork"
-                >Facebook</a
-              >
+                href="https://twitter.com/"
+                class="link-footer"
+                aria-label="Ссылка на Twitter"
+                class="link snetwork icon-twitter"
+                ><svg class="contacts-icon" width="20" height="20">
+                  <use href="./images/sprite.svg#icon-twitter-logo"></use>
+                </svg>
+              </a>
             </li>
             <li class="s-networks-links">
-              <a href="" aria-label="Ссылка на LinkedIn" class="link snetwork"
-                >LinkedIn</a
-              >
+              <a
+                href="https://facebook.com/"
+                class="link-footer"
+                aria-label="Ссылка на Facebook"
+                class="link snetwork icon-facebook"
+                ><svg class="contacts-icon" width="20" height="20">
+                  <use href="./images/sprite.svg#icon-facebook-logo"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="s-networks-links">
+              <a
+                href="https://linkedin.com"
+                class="link-footer"
+                aria-label="Ссылка на LinkedIn"
+                class="link snetwork icon-linkedin"
+                ><svg class="contacts-icon" width="20" height="20">
+                  <use href="./images/sprite.svg#icon-linkedin-logo"></use>
+                </svg>
+              </a>
             </li>
           </ul>
         </div>
         <div class="footer-link-action">
-          <b class="action">
-            Подпишитесь на рассылку
+          <b>
+            <b class="link action">Подпишитесь на рассылку</b>
           </b>
+          <button type="button" class="button">
+            Подписаться
+            <svg class="rocket" width="24" height="42">
+              <use href="./images/sprite.svg#icon-rocket"></use>
+            </svg>
+          </button>
         </div>
       </div>
-      <p class="developed-by container">2020 | Developed by GoIT Students</p>
+      <p class="developed-by container">
+        2020 | Developed by GoIT Students
+      </p>
     </footer>
   </body>
 </html>

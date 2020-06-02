@@ -34,7 +34,7 @@
             </li>
           </ul>
 
-          <div class="contacts">
+          <div class="contacts box-contacts">
             <a href="mailto:info@devstudio.com" class="contacts-header link"
               ><svg class="contacts-icon" width="16" height="11">
                 <use href="./images/sprite.svg#icon-envelope"></use>
@@ -43,8 +43,8 @@
             >
 
             <a href="tel:+380961111111" class="contacts-header link"
-              ><svg class="contacts-icon" width="16" height="11">
-                <use href="./images/sprite.svg#icon-envelope"></use>
+              ><svg class="contacts-icon" width="10" height="15">
+                <use href="./images/sprite.svg#icon-phone-logo"></use>
               </svg>
               +38 096 111 11 11
             </a>
@@ -64,7 +64,7 @@
 
       <!-- Преимущества (скрытый заголовок) -->
       <section class="container features">
-        <!-- <h2>Преимущества</h2> -->
+        <h2 class="visually-hidden">Преимущества</h2>
         <ul class="list features-list">
           <li class="features-item icon-antenna">
             <div class="feature-link">
@@ -136,7 +136,7 @@
           <li class="doing-item">
             <a href="./index.html"
               ><img
-                src="./images/Laptop.png"
+                src="./images/Laptop.jpg"
                 alt="ноутбук"
                 width="370"
                 class="image"
@@ -149,7 +149,7 @@
           <li class="doing-item">
             <a href="./index.html"
               ><img
-                src="./images/./phone.png"
+                src="./images/./phone.jpg"
                 alt="телефон"
                 width="370"
                 class="image"
@@ -162,7 +162,7 @@
           <li class="doing-item">
             <a href="./index.html"
               ><img
-                src="./images/screen.png"
+                src="./images/screen.jpg"
                 alt="монитор"
                 width="370"
                 class="image"
@@ -183,7 +183,7 @@
           <ul class="list team-list">
             <li class="team-element">
               <img
-                src="./images/John_Smith.png"
+                src="./images/John_Smith.jpg"
                 alt="Фото Джона Смита"
                 width="278"
                 class="image"
@@ -227,7 +227,7 @@
 
             <li class="team-element">
               <img
-                src="./images/Marta_Stewart.png"
+                src="./images/Marta_Stewart.jpg"
                 alt="Фото Марты Стюарт"
                 width="278"
                 class="image"
@@ -271,7 +271,7 @@
 
             <li class="team-element">
               <img
-                src="./images/Robert_Jakis.png"
+                src="./images/Robert_Jakis.jpg"
                 alt="Фото Роберта Джекиса"
                 width="278"
                 class="image"
@@ -315,7 +315,7 @@
 
             <li class="team-element">
               <img
-                src="./images/Martin_Doe.png"
+                src="./images/Martin_Doe.jpg"
                 alt="Фото Мартина До"
                 width="278"
                 class="image"
@@ -366,64 +366,52 @@
           Постоянные клиенты
         </h2>
         <ul class="list clients-list">
-          <li>
-            <a href="index.html"
-              ><img
-                src="./images/logo1.svg"
-                alt="Логотип клиента 1"
-                width="48"
-                class="client"
-            /></a>
+          <li class="client-link">
+            <a href="index.html" class="customer-link"
+              ><svg class="client" width="44" height="50">
+                <use href="./images/sprite.svg#icon-logo1"></use>
+              </svg>
+            </a>
           </li>
 
-          <li>
-            <a href="index.html"
-              ><img
-                src="./images/logo2.svg"
-                alt="Логотип клиента 2"
-                width="40"
-                class="client"
-            /></a>
+          <li class="client-link">
+            <a href="index.html" class="customer-link"
+              ><svg class="client" width="44" height="52">
+                <use href="./images/sprite.svg#icon-logo2"></use>
+              </svg>
+            </a>
           </li>
 
-          <li>
-            <a href="index.html"
-              ><img
-                src="./images/logo3.svg"
-                alt="Логотип клиента 3"
-                width="41"
-                class="client"
-            /></a>
+          <li class="client-link">
+            <a href="index.html" class="customer-link"
+              ><svg class="client" width="41" height="42">
+                <use href="./images/sprite.svg#icon-logo3"></use>
+              </svg>
+            </a>
           </li>
 
-          <li>
-            <a href="index.html"
-              ><img
-                src="./images/logo4.svg"
-                alt="Логотип клиента 4"
-                width="82"
-                class="client"
-            /></a>
+          <li class="client-link">
+            <a href="index.html" class="customer-link"
+              ><svg class="client" width="80" height="42">
+                <use href="./images/sprite.svg#icon-logo4"></use>
+              </svg>
+            </a>
           </li>
 
-          <li>
-            <a href="index.html"
-              ><img
-                src="./images/logo5.svg"
-                alt="Логотип клиента 5"
-                width="59"
-                class="client"
-            /></a>
+          <li class="client-link">
+            <a href="index.html" class="customer-link"
+              ><svg class="client" width="59" height="47">
+                <use href="./images/sprite.svg#icon-logo5"></use>
+              </svg>
+            </a>
           </li>
 
-          <li>
-            <a href="index.html"
-              ><img
-                src="./images/logo6.svg"
-                alt="Логотип клиента 6"
-                width="88"
-                class="client"
-            /></a>
+          <li class="client-link">
+            <a href="index.html" class="customer-link"
+              ><svg class="client" width="88" height="45">
+                <use href="./images/sprite.svg#icon-logo6"></use>
+              </svg>
+            </a>
           </li>
         </ul>
       </section>
@@ -432,68 +420,90 @@
     <footer class="footer">
       <div class="container container-footer">
         <address class="adress-info">
-          <div class="logo-footer">
+          <p class="logo-footer">
             <span class="logo-primary">
               Web
             </span>
-            Studio <br />
-          </div>
+            Studio
+          </p>
 
           <p class="adress">г. Киев, пр-т Леси Украинки, 26</p>
 
-          <div class="contacts">
-            <a class="contacts-email" href="mailto:info@example.com"
-              >info@example.com</a
-            >
-            <br />
-            <a class="contacts-phone" href="tel:+380991111111"
-              >+38 099 111 11 11</a
-            >
-          </div>
+          <!-- <div class="contacts"> -->
+          <a class="contacts-email" href="mailto:info@example.com"
+            >info@example.com</a
+          >
+
+          <a class="contacts-phone" href="tel:+380991111111"
+            >+38 099 111 11 11</a
+          >
+          <!-- </div> -->
         </address>
 
         <div class="footer-s-links">
-          <a href="" class="link action"><b>Присоединяйтесь</b></a>
+          <b class="action">Присоединяйтесь</b>
           <ul class="list-footer">
             <li class="s-networks-links">
               <a
                 href="https://www.instagram.com/"
+                class="link-footer"
                 aria-label="Ссылка на Instagram"
                 class="link snetwork icon-instagram"
-              ></a>
+                ><svg class="contacts-icon" width="20" height="20">
+                  <use href="./images/sprite.svg#icon-Instagram-logo"></use>
+                </svg>
+              </a>
             </li>
             <li class="s-networks-links">
               <a
                 href="https://twitter.com/"
+                class="link-footer"
                 aria-label="Ссылка на Twitter"
                 class="link snetwork icon-twitter"
-              ></a>
+                ><svg class="contacts-icon" width="20" height="20">
+                  <use href="./images/sprite.svg#icon-twitter-logo"></use>
+                </svg>
+              </a>
             </li>
             <li class="s-networks-links">
               <a
                 href="https://facebook.com/"
+                class="link-footer"
                 aria-label="Ссылка на Facebook"
                 class="link snetwork icon-facebook"
-              ></a>
+                ><svg class="contacts-icon" width="20" height="20">
+                  <use href="./images/sprite.svg#icon-facebook-logo"></use>
+                </svg>
+              </a>
             </li>
             <li class="s-networks-links">
               <a
                 href="https://linkedin.com"
+                class="link-footer"
                 aria-label="Ссылка на LinkedIn"
                 class="link snetwork icon-linkedin"
-              ></a>
+                ><svg class="contacts-icon" width="20" height="20">
+                  <use href="./images/sprite.svg#icon-linkedin-logo"></use>
+                </svg>
+              </a>
             </li>
           </ul>
         </div>
         <div class="footer-link-action">
           <b>
-            <a href="" class="link action">Подпишитесь на рассылку</a>
+            <b class="link action">Подпишитесь на рассылку</b>
           </b>
+          <button type="button" class="button">
+            Подписаться
+            <svg class="rocket" width="24" height="42">
+              <use href="./images/sprite.svg#icon-rocket"></use>
+            </svg>
+          </button>
         </div>
       </div>
-      <div class="developed-by">
+      <p class="developed-by container">
         2020 | Developed by GoIT Students
-      </div>
+      </p>
     </footer>
   </body>
 </html>
