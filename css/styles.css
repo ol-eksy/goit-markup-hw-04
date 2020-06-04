@@ -40,7 +40,7 @@ body {
   width: 1200px;
   padding-left: 15px;
   padding-right: 15px;
-  /* outline: 2px solid tomato; */
+ 
 }
 
 .main-nav {
@@ -49,8 +49,7 @@ body {
 }
 .main-nav > .link {
   margin-right: 85px;
-  /* padding-top: 24px;
-  padding-bottom: 24px; */
+ 
 }
 
 .main-nav > .site-nav {
@@ -77,10 +76,7 @@ body {
 .contacts .contacts-icon {
   margin-right: 10px;
 }
-/* .contacts .link {
-  padding-top: 32px;
-  padding-bottom: 32px;
-} */
+
 .contacts .link:not(:last-child) {
   margin-right: 50px;
 }
@@ -101,7 +97,7 @@ body {
   color: #000000;
 }
 .logo-primary {
-  /* font-family: Raleway, sans-serif; */
+  
   color: var(--accent-color);
 }
 
@@ -116,7 +112,7 @@ body {
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: var(--main-color-headers);
-  /* text-decoration: none; */
+  
 }
 .site-nav .link:hover,
 .site-nav .link:focus {
@@ -373,7 +369,7 @@ list-examples:focus {
   border-radius: 50%;
 }
 .link-footer:hover,
-.link-footer:focus .snetwork .contacts-icon {
+.link-footer:focus .link-footer .contacts-icon {
   --color4: #ffffff;
   background-color: var(--accent-color);
 }
@@ -403,9 +399,6 @@ list-examples:focus {
   padding-bottom: 21px;
   align-items: baseline;
 }
-/* .snetwork {
-  background-color: var(--accent-color);
-} */
 
 .list-footer {
   padding-left: 0;
@@ -470,7 +463,7 @@ list-examples:focus {
 .main {
   max-width: 1600px;
   height: 600px;
-  /* outline: 1px solid red; */
+
   padding-top: 200px;
   padding-bottom: 200px;
   padding-right: 452px;
@@ -624,7 +617,7 @@ list-examples:focus {
 .title-details {
   margin-top: 0;
   margin-bottom: 0;
-  /* padding: 27px 86px; */
+  
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
@@ -638,8 +631,6 @@ list-examples:focus {
   background-color: var(--main-color-filter);
   padding-top: 94px;
   padding-bottom: 94px;
-
-  /* outline: 2px solid green; */
 }
 
 .title-team {
@@ -699,17 +690,6 @@ list-examples:focus {
   margin-right: 10px;
 }
 
-/* .image-slink {
-  display: inline-block;
-  width: 44px;
-  height: 44px;
-
-  outline: 1px solid red;
-} */
-
-.link-link .contacts-icon {
-  /* --color4: green; */
-}
 .link-link:hover,
 .link-link:focus .link-link .contacts-icon {
   --color4: #ffffff;
@@ -731,7 +711,6 @@ list-examples:focus {
   background-color: var(--accent-color);
 }
 .clients {
-  /* outline: 2px solid red; */
   padding-top: 94px;
   padding-bottom: 94px;
 }
@@ -769,20 +748,6 @@ customer-link:focus {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
-  /* text-align: center; */
+
   color: var(--main-color-headers);
-}
-
-/* .customer-link {
-  display: block;
-} */
-/* .client:hover {
-  color: var(--accent-color);
-} */
-
-.main {
-  /* outline: 2px solid red; */
-}
-.features {
-  /* outline: 2px solid green; */
 }
